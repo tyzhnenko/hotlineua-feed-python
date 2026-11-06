@@ -157,3 +157,6 @@ __marimo__/
 
 # ASDF
 .tool-versions
+
+# Dev Containers
+.devcontainer/
