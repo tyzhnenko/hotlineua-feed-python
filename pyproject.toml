@@ -1,0 +1,102 @@
+[project]
+name = "horoshopua-feed-python"
+version = "0.1.0"
+description = "Horoshop.UA Product Feed Python Wrapper"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Dmytro Tyzhnenko", email = "t.dmitry@gmail.com" }]
+maintainers = [{ name = "Dmytro Tyzhnenko", email = "t.dmitry@gmail.com" }]
+requires-python = ">=3.11"
+dependencies = []
+keywords = [
+    "horoshop",
+    "horoshop.ua",
+    "product feed",
+    "feed",
+    "e-commerce",
+    "xml",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Programming Language :: Python :: 3.15",
+    "Topic :: Office/Business",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Typing :: Typed",
+]
+
+[project.urls]
+Homepage = "https://github.com/tyzhnenko/horoshopua-feed-python"
+Repository = "https://github.com/tyzhnenko/horoshopua-feed-python"
+Issues = "https://github.com/tyzhnenko/horoshopua-feed-python/issues"
+Changelog = "https://github.com/tyzhnenko/horoshopua-feed-python/releases"
+
+[project.scripts]
+horoshopua-feed-python = "horoshopua_feed_python:main"
+
+[build-system]
+requires = ["uv_build>=0.13.5,<0.14.0"]
+build-backend = "uv_build"
+
+[tool.ruff]
+line-length = 120
+indent-width = 4
+target-version = "py314"
+exclude = [
+    ".git",
+    ".venv",
+    ".direnv",
+    ".eggs",
+    ".git-rewrite",
+    ".mypy_cache",
+    ".pytype",
+    ".ruff_cache",
+    ".tox",
+    "__pycache__",
+    "__pypackages__",
+    "_build",
+    "build",
+    "buck-out",
+    "dist",
+    "venv",
+]
+
+[tool.ruff.format]
+# Like Black, use double quotes for strings.
+quote-style = "double"
+
+# Like Black, indent with spaces, rather than tabs.
+indent-style = "space"
+
+# Like Black, respect magic trailing commas.
+skip-magic-trailing-comma = false
+
+# Like Black, automatically detect the appropriate line ending.
+line-ending = "auto"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "B", "I", "C", "D", "Q", "S", "T"]
+ignore = [
+    "D100",
+    "D101",
+    "D102",
+    "D103",
+    "D104",
+    "D105",
+    "D106",
+    "D107",
+    "D213",
+    "D203",
+]
+
+[tool.mypy]
+python_version = "3.14"
