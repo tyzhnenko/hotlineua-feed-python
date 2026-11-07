@@ -27,8 +27,7 @@ repos:
         args:
           [
             --ignore-missing-imports,
-            --no-strict-optional,
-            --python-executable=.venv/bin/python,
+            --no-strict-optional
           ]
 
   - repo: https://github.com/commitizen-tools/commitizen
