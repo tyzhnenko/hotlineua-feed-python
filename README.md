@@ -1,4 +1,4 @@
-# Horoshop.UA Product Feed Python Wrapper
+# Hotline.UA Product Feed Python Wrapper
 
 ## Terms of usage
 
@@ -52,4 +52,4 @@ uv run prek install
 - Include steps to reproduce, expected vs actual behavior, and environment details.
 - Propose a minimal fix or a direction when possible.
 
-Thank you for helping improve Horoshop.UA Product Feed Python Wrapper!
+Thank you for helping improve Hotline.UA Product Feed Python Wrapper!

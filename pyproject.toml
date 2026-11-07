@@ -1,7 +1,7 @@
 [project]
-name = "horoshopua-feed-python"
+name = "hotlineua-feed-python"
 version = "0.1.0"
-description = "Horoshop.UA Product Feed Python Wrapper"
+description = "Hotline.UA Product Feed Python Wrapper"
 readme = "README.md"
 license = "MIT"
 license-files = ["LICENSE"]
@@ -10,8 +10,8 @@ maintainers = [{ name = "Dmytro Tyzhnenko", email = "t.dmitry@gmail.com" }]
 requires-python = ">=3.11"
 dependencies = []
 keywords = [
-    "horoshop",
-    "horoshop.ua",
+    "hotline",
+    "hotline.ua",
     "product feed",
     "feed",
     "e-commerce",
@@ -35,13 +35,13 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/tyzhnenko/horoshopua-feed-python"
-Repository = "https://github.com/tyzhnenko/horoshopua-feed-python"
-Issues = "https://github.com/tyzhnenko/horoshopua-feed-python/issues"
-Changelog = "https://github.com/tyzhnenko/horoshopua-feed-python/releases"
+Homepage = "https://github.com/tyzhnenko/hotlineua-feed-python"
+Repository = "https://github.com/tyzhnenko/hotlineua-feed-python"
+Issues = "https://github.com/tyzhnenko/hotlineua-feed-python/issues"
+Changelog = "https://github.com/tyzhnenko/hotlineua-feed-python/releases"
 
 [project.scripts]
-horoshopua-feed-python = "horoshopua_feed_python:main"
+hotlineua-feed-python = "hotlineua_feed_python:main"
 
 [build-system]
 requires = ["uv_build>=0.13.5,<0.14.0"]
